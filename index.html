@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hand Cricket</title>
+</head>
+<body>
+    <div class="container">
+        <p><a href="about.html" target="_blank">For knowing more about the game and rules- click here</a></p>
+
+        <div class="toss-container">
+            <div class="button-container">
+              <p>Select Heads or Tails:</p>
+              <select id="tossChoice">
+                <option value="Heads">Heads</option>
+                <option value="Tails">Tails</option>
+              </select>
+              <button id="tossButton">Toss</button>
+            </div>
+            <p id="tossResult"></p>
+          </div>
+          <div class="number-container">
+            <div class="number-column">
+              <img src="assets\user.png" alt="User Logo" class="logo" style="background-color: transparent;">
+              <p>Select runs (1-6):</p>
+              <select id="userInput" disabled>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+              <button id="playButton" style="display: none">Play</button>
+            </div>
+            <div class="number-column">
+              <img src="assets\pc.png" alt="Computer Logo" class="logo" style="background-clip: content-box;">
+              <p>Computer's number:</p>
+              <p id="result"></p>
+            </div>
+          </div>
+          <button id="resetButton" style="display: none">Reset</button>
+          <p id="score">Score: 0</p>
+          <p id="overs">Overs: 0</p>
+          <p id="ballsFaced">Balls Faced: 0</p>
+          <p id="runsScored">Runs Scored: 0</p>
+          <p id="milestoneMessage" style="display: none; font-weight: bold;"></p>
+
+    </div>
+
+      <script src="app.js">
+
+      </script>
+    
+</body>
+</html>

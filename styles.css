@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+body {
+    font-family: 'Fira Mono', monospace;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .container {
+    text-align: center;
+    padding: 40px;
+    background-color: #588157;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+  button, select {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  select {
+    width: 100px;
+  }
+  .toss-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .number-container {
+    display: flex;
+    justify-content: center;
+  }
+  .number-column {
+    margin: 0 20px;
+  }
+
+  img{
+    mix-blend-mode:lighten;
+  }
